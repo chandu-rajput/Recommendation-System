@@ -130,4 +130,4 @@ uv run streamlit run app.py
 ## 📬 Contact
 
 If you like this project, feel free to connect!
-Linkedin : https://www.linkedin.com/in/chandrapal-deora/
+* Linkedin : https://www.linkedin.com/in/chandrapal-deora/
