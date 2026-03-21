@@ -1,7 +1,6 @@
 # 🎬 Movie Recommender System
 
-A hybrid movie recommendation system built using Python and Streamlit.
-It suggests movies based on content similarity and weighted rating system.
+A hybrid movie recommendation engine built with Python and Streamlit. It balances content similarity with a weighted rating system to ensure recommendations are both relevant and high-quality.
 
 ---
 
@@ -13,6 +12,19 @@ It suggests movies based on content similarity and weighted rating system.
 * 🌐 Interactive UI with Streamlit
 * ⚡ Fast similarity search using cosine similarity
 
+---
+
+---
+
+## 🧠 The Hybrid Algorithm
+The system calculates a final score by combining two metrics:
+1. Content-Based Filtering (60%): Uses TF-IDF Vectorization on movie overviews and genres, then calculates the Cosine Similarity between vectors.
+2. Weighted Rating (40%): To avoid recommending obscure movies with a single 10-star rating, we use the IMDB Weighted Rating formula:
+      $$W = \frac{v}{v+m} \cdot R + \frac{m}{v+m} \cdot C$$$
+   v$: Number of votes for the movie
+   $m$: Minimum votes required to be listed
+   $R$: Average rating of the movie
+   $C$: Mean vote across the whole report
 ---
 
 ## 🧠 How It Works
@@ -33,12 +45,11 @@ This system combines two approaches:
 
 ## 🛠️ Tech Stack
 
-* Python
-* Pandas, NumPy
-* Scikit-learn
-* Streamlit
+* Language: Python
+* Data: Pandas, NumPy, Scikit-learn
+* UI: Streamlit
 * Pickle (for model storage)
-* uv (environment & dependency management)
+* Environment: uv
 * Google Colab (for model building)
 
 ---
