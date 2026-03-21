@@ -39,7 +39,7 @@ This system combines two approaches:
 * Streamlit
 * Pickle (for model storage)
 * uv (environment & dependency management)
-* google collab
+* Google Colab (for model building)
 
 ---
 
