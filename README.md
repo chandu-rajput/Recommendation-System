@@ -21,10 +21,10 @@ The system calculates a final score by combining two metrics:
 1. Content-Based Filtering (60%): Uses TF-IDF Vectorization on movie overviews and genres, then calculates the Cosine Similarity between vectors.
 2. Weighted Rating (40%): To avoid recommending obscure movies with a single 10-star rating, we use the IMDB Weighted Rating formula:
       $$W = \frac{v}{v+m} \cdot R + \frac{m}{v+m} \cdot C$$$
-   v$: Number of votes for the movie
-   $m$: Minimum votes required to be listed
-   $R$: Average rating of the movie
-   $C$: Mean vote across the whole report
+* v$: Number of votes for the movie
+* $m$: Minimum votes required to be listed
+* $R$: Average rating of the movie
+*  $C$: Mean vote across the whole report
 ---
 
 ## 🧠 How It Works
