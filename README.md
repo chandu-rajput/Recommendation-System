@@ -1,7 +1,8 @@
 # 🎬 Movie Recommender System
 
-A hybrid movie recommendation engine built with Python and Streamlit. It balances content similarity with a weighted rating system to ensure recommendations are both relevant and high-quality.
+* A hybrid movie recommendation engine built with Python and Streamlit. It balances content similarity with a weighted rating system to ensure recommendations are both relevant and high-quality.
 
+* "This app uses a Hybrid Filtering approach (Cosine Similarity + IMDb Weighted Ratings) to find your next favorite movie."
 ---
 
 ## 🚀 Features
