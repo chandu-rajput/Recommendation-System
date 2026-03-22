@@ -3,6 +3,10 @@
 * "This app uses a Hybrid Filtering approach (Cosine Similarity + IMDb Weighted Ratings) to find your next favorite movie."
 ---
 
+# My Awesome Streamlit App
+
+## 🚀 Live Demo
+You can view the live version of this app here:
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://recommendation-system-dyficwxopxbvhhorgc3jfq.streamlit.app/)
 
 ## 🚀 Features
